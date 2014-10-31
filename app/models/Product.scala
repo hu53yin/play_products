@@ -18,5 +18,6 @@ case class Product(ean: Long, name: String, description: String)
         "Zebra Length 28mm Assorted 150 Pack")
     )
 
+    def findByEan(ean: Long) = products.find(_.ean == ean)
     def findAll = products.toList.sortBy(_.ean)
 }
