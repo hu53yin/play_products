@@ -1,5 +1,13 @@
-application.name = Ürün Katalo?u
+application.name = Urun Katalogu
 ean = EAN
-name = Ad?
-description = Aç?klama
-products.details = Ürün: {0}
+name = Adi
+description = Aciklama
+products.details = Urun: {0}
+products.form = Urun detaylari
+products.new = (yeni)
+products.new.command = Yeni
+products.new.submit = Ekle
+products.new.success = Urun basari ile eklendi {0}.
+validation.errors = Lütfen formdaki hatalari duzeltiniz.
+validation.ean.duplicate = Girilen EAN kod ile urun mevcut.
+products.list.navigation = Urunler
